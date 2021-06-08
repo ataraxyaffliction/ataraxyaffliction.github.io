@@ -1,0 +1,63 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 840px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 1.4;
+  font-size: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 19px 0 56px;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-decoration: underline !important;
+  font-style: italic;
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1294px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1686px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1530px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: 30px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-bottom: 30px;
+  }
+}
